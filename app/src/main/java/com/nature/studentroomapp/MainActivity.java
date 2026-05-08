@@ -6,6 +6,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
+
+import com.nature.studentroomapp.database.AppDatabase;
+import com.nature.studentroomapp.model.Student;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {

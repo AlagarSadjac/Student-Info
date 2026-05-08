@@ -1,4 +1,4 @@
-package com.nature.studentroomapp;
+package com.nature.studentroomapp.model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

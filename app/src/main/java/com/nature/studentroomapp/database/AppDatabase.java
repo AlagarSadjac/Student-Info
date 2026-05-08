@@ -1,10 +1,13 @@
-package com.nature.studentroomapp;
+package com.nature.studentroomapp.database;
 
 import android.content.Context;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+
+import com.nature.studentroomapp.dao.StudentDao;
+import com.nature.studentroomapp.model.Student;
 
 @Database(entities = {Student.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
