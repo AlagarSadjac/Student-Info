@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:hint="Enter Student Name"
-        android:layout_marginTop="600dp"/>
+        android:layout_marginTop="500dp"/>
 
     <Button
         android:id="@+id/B"
@@ -19,11 +19,11 @@
         android:text="Add Student"
         android:layout_below="@id/E"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="5dp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="450dp"
         android:layout_marginTop="20dp"
         android:background="#F0F0F0"
         android:padding="10dp">
